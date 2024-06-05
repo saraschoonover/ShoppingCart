@@ -8,11 +8,14 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './views/Home'
 import About from './views/About'
-
+import ProductList from './components/ProductList';
 
 function App() {
   return (
+
+
     <div>
+      <ProductList />
       <Router>
         <div className="relative min-h-screen">
 
@@ -25,7 +28,7 @@ function App() {
           </div>
 
           <div>
-            
+
               <Switch>
                 <Route exact path="/">
                   <Home />
@@ -35,7 +38,7 @@ function App() {
                   <About />
                 </Route>
               </Switch>
-            
+
           </div>
         </div>
       </Router>

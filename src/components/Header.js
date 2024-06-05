@@ -9,7 +9,7 @@ class Header extends React.Component{
                 <div className="container mx-auto flex justify-between items-center px-3">
                     <span className="mr-2 font-bold text-2xl">
                         <Link to="/">
-                            React Boilerplate
+                            Shopping Cart
                         </Link>
                     </span>
                     <Navigation />
